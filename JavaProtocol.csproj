@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="serializer" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Binary\Binary.csproj" />
+      <ProjectReference Include="..\Math\Math.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EditorConfigFiles Include=".editorconfig" />
+    </ItemGroup>
+
+</Project>
